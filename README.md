@@ -1,2 +1,0 @@
-# delivery
-Created with CodeSandbox

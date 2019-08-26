@@ -1,0 +1,157 @@
+.body {
+  font-family: "Nunito", sans-serif;
+}
+
+.top-menu {
+  background: #ff7f2a;
+  /* background: rgb(228, 87, 36); */
+  /* background: rgb(253, 72, 72); */
+}
+
+.top-menu-container,
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+}
+
+.top-menu-container {
+  justify-content: space-between;
+}
+
+.menu-item {
+  list-style: none;
+  padding: 3px 10px;
+}
+
+.menu-item:first-child {
+  padding-left: 0;
+}
+
+.top-menu-right > .menu-item:last-child {
+  padding-right: 0;
+}
+
+.menu-item > a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+.menu-item-link:hover {
+  outline: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-parent {
+  box-shadow: 0px 10px 15px -8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-centered {
+  max-width: 1360px;
+  padding: 0 40px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+.uk-navbar-nav > li > a {
+  padding: 0;
+}
+
+.search {
+  flex-basis: 650px;
+}
+
+#cart-container {
+  color: #999;
+}
+
+#cart-container > a:hover {
+  color: #000;
+}
+
+.uk-container {
+  max-width: 1360px;
+}
+
+a > svg {
+  margin-left: 10px;
+}
+
+.ads-examples {
+  width: 100%;
+  height: 400px;
+  background: gray;
+}
+
+.bg-light {
+  background: rgb(250, 250, 250);
+  color: #999 !important;
+}
+
+.txt-dark,
+.txt-dark > ul,
+.txt-dark > ul > a,
+.txt-dark > ul > li > a,
+.txt-dark > a,
+.txt-dark ul > li > span {
+  color: #999 !important;
+}
+
+.txt-dark > ul > li > a > span {
+  color: #999 !important;
+}
+
+.cart-title {
+  text-align: center;
+  color: #000 !important;
+}
+
+.cart-item-list {
+  display: flex;
+  align-items: space-between;
+}
+
+.cart-price {
+  color: #000;
+  font-weight: bold;
+  flex: 1;
+  text-align: right;
+}
+
+.btn {
+  background-color: transparent !important;
+  color: #222 !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.btn:hover {
+  background-color: #ff7f2a !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.uk-offcanvas-bar {
+  background: #fff;
+}
+
+.logo-p-1,
+.logo-p-2 {
+  font-size: 1.4em !important;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+
+.logo-p-1 {
+  color: #333;
+}
+
+.logo-p-2 {
+  color: #ff7f2a;
+  position: relative;
+}
+
+.logo-p-2::after {
+  content: ".com";
+  /* position: absolute; */
+  color: #000;
+  font-size: 0.45em;
+}
